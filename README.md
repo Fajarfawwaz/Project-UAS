@@ -148,3 +148,24 @@ metode statis ini memvalidasi input untuk jumlah kasur, yang di masukan oleh pen
     View.display_table(customer_name, date, quantity, total_price)
 ```
 fungsi utama ini berfungsi sebagai penghubung antara input pengguna, pemrosesan data, dan tampilan hasil, sehingga apabila sudah di isi akan menghasilkan tampilan informasi pemesanan dalam format tabel yang terstruktur. 
+## 5. blok if_name_=="_main_"
+```python
+if __name__ == "__main__":
+    main()
+```
+ini adalah cara untuk memastikan bahwa fungsi main hanya di jalankan ketika script ini di jalankan langsungg bukan saat diimpor sebagai modul dalam program lain.
+
+### ALUR PROGRAM 
+pengguna diminta untuk memasukan nama pelanggan, jumlah kasur, dan tanggal
+jumlah kasur, dan tanggal 
+jumlah kasur dan tanggal divalidasi
+jika input valid, total harga di hitung dan tampilkan data format tabel. jika ada input yang tidak valid, program akan menampilkan pesan eror dan berhenti 
+
+## CONTOH OUTPUT : 
+Jika pengguna memasukan : 
+Nama : Fajar Fawwaz Atallah
+Jumlah kasur : 3
+Tanggal : "1/2025" 
+Output yang di tampilkan akan seperti ini : 
+# <img width="262" alt="Screenshot 2025-01-07 080818" src="https://github.com/user-attachments/assets/23e29d74-41f2-4308-b39a-2eac8abeb6ee" />
+
